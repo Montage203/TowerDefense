@@ -1,1 +1,30 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden; /* Empêche le défilement de la page */
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-canvas {
+    background-color: #111; /* Couleur de fond sombre */
+}
+
+#ui-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* Ajoutez ici des styles pour l'interface utilisateur */
+}
+
+/* Ajoutez ici des styles spécifiques au jeu de Tower Defense */
 
